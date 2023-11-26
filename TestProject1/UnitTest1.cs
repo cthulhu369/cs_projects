@@ -10,7 +10,6 @@ public class TransactionControllerTests
     {
         // Arrange
         var stpService = new Mock<STPService>();
-
         var controller = new TransactionController(stpService.Object);
 
         // Act
@@ -19,5 +18,22 @@ public class TransactionControllerTests
         // Assert
         Assert.IsType<OkObjectResult>(result);
         
+    }
+}
+
+public class STPServiceTests
+{
+    [Fact]
+    public void ProcessTransaction_ReturnsTrue()
+    {
+        // Arrange
+        var context = new Mock<ApplicationDbContext>();
+        var service = new STPService(context.Object);
+
+        // Act
+        var result = service.ProcessTransaction(new Transaction());
+
+        // Assert
+        Assert.True(result);
     }
 }
