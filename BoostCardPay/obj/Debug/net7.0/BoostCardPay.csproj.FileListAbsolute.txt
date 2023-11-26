@@ -6,6 +6,7 @@
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Azure.Core.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Azure.Identity.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Castle.Core.dll
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Humanizer.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.AspNetCore.Antiforgery.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.Abstractions.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.Core.dll
@@ -53,6 +54,7 @@
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -85,12 +87,14 @@
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.Net.Http.Headers.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Mono.TextTemplating.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Moq.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Newtonsoft.Json.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/System.CodeDom.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/System.Drawing.Common.dll
@@ -109,6 +113,10 @@
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/linux-x64/native/libsqlite3.so
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/osx-x64/native/libsqlite3.dylib
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/win7-x64/native/sqlite3.dll
+/home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/win7-x86/native/sqlite3.dll
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
 /home/ericp/Coding/cs_projects/BoostCardPay/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
