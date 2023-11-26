@@ -1,8 +1,8 @@
 public class RuleEngineService
 {
-    private readonly ApplicationDbContext _context;
+    private readonly TransactionDbContext _context;
 
-    public RuleEngineService(ApplicationDbContext context)
+    public RuleEngineService(TransactionDbContext context)
     {
         _context = context;
     }

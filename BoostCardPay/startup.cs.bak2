@@ -1,0 +1,16 @@
+public class Startup
+{
+    private IApplicationEnvironment _appEnv;
+
+    public Startup(IApplicationEnvironment appEnv)
+    {
+        _appEnv = appEnv;
+    }
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddEntityFramework()
+            .AddSqlite()
+            .AddDbContext<MyContext>(
+                options => { options.UseSqlite($"Data Source={_appEnv.ApplicationBasePath}/data.db"); });
+    }
+}

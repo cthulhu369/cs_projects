@@ -30,4 +30,8 @@ public class Transaction {
         PaymentGateway = "PaymentGateway";
         Bank = "Bank";
     }
+    public string printTransaction()
+    {
+        return "Amount: " + Amount + "\nDate: " + Date + "\nStatus: " + Status + "\nMerchant: " + Merchant + "\nCustomer: " + Customer + "\nPaymentGateway: " + PaymentGateway + "\nBank: " + Bank;
+    }
 }
