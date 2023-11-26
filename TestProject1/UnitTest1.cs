@@ -15,7 +15,9 @@ public class TransactionControllerTests
 
         // Act
         var result = controller.ProcessTransaction(new Transaction());
+
         // Assert
         Assert.IsType<OkObjectResult>(result);
+        
     }
 }
