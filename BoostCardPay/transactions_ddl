@@ -1,0 +1,11 @@
+CREATE TABLE Transactions (
+    Id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    Amount INTEGER NOT NULL,
+    Date TEXT NOT NULL,
+    Status TEXT NOT NULL,
+    Merchant TEXT NOT NULL,
+    Customer TEXT NOT NULL,
+    PaymentGateway TEXT NOT NULL,
+    Bank TEXT NOT NULL
+);
+// Compare this snippet from BoostCardPay/Controllers/TransactionController.cs:
