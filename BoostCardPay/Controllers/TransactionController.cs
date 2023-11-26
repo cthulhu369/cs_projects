@@ -12,8 +12,7 @@ public class TransactionController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult ProcessTransaction([FromBody] Transaction transaction)
-    {
+    public IActionResult ProcessTransaction([FromBody] Transaction transaction) {
         var result = _stpService.ProcessTransaction(transaction);
         //var result1 = new OkObjectResult(200);
         return Ok(result); // Simplified response
